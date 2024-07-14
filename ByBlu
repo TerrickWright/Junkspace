@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terrick Wright - Creative Designer/Marketer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #444;
+        }
+        .portfolio-item {
+            margin: 20px 0;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .contact-form button {
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Terrick Wright</h1>
+        <p>Creative Designer/Marketer</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#portfolio">Creative Portfolio</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container" id="about">
+        <h2>About Me</h2>
+        <p>I am a Southern Miss graduate who lettered 4 years. I have a clothing brand that I design for and plan events. I have organized 10+ events in New Orleans and created products for musical artists, painters, and business owners. One of my larger projects was helping FLVR (a PepsiCo brand) with its inaugural merch drop. I also designed a mock t-shirt for Trinidad James' inaugural drop of Hommewrk, which gave me the opportunity to attend ComplexCon as a special guest.</p>
+        <p>I have received orders from 30+ countries around the world, worked with Sneaker Politics, and been a one-time vendor at this premier sneaker boutique in the South. I have also collaborated with Grammy-nominated artist Pell, renowned artists Jay McKay and Cubsthepoet, and Tyrell Shaw, all located in New Orleans. These relationships were cultivated genuinely through a friend at Wayne Clark, the owner of Mr. Wolf Espresso.</p>
+    </div>
+    <div class="container" id="portfolio">
+        <h2>Creative Portfolio</h2>
+        <!-- Add your portfolio items here -->
+        <div class="portfolio-item">
+            <h3>Project Title</h3>
+            <p>Project description...</p>
+        </div>
+    </div>
+    <div class="container" id="blog">
+        <h2>Blog</h2>
+        <!-- Add your blog posts here -->
+        <div class="blog-post">
+            <h3>Blog Post Title</h3>
+            <p>Blog post content...</p>
+        </div>
+    </div>
+    <div class="container" id="contact">
+        <h2>Contact</h2>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</body>
+</html>
